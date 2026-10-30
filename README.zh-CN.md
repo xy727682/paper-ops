@@ -22,6 +22,22 @@
 
 ## 安装
 
+使用 [skills CLI](https://skills.sh/docs)，需要 Node.js 22.20 或更高版本：
+
+```bash
+npx skills add xy727682/paper-ops
+```
+
+按提示选择技能和目标智能体。若要为当前项目的 Codex 安装全部三个技能：
+
+```bash
+npx skills add xy727682/paper-ops --skill paper-ops academy-writing seven-step-rebuttal --agent codex
+```
+
+加 `-g` 可安装到用户级目录。使用 Claude Code 时，将 `--agent codex` 换成 `--agent claude-code`。
+
+### 手动安装
+
 先下载 [v0.1.0](https://github.com/xy727682/paper-ops/releases/tag/v0.1.0) 或克隆仓库：
 
 ```bash

@@ -18,6 +18,22 @@ All three are SKILL.md workflows for a compatible agent, rather than standalone 
 
 ## Installation
 
+Use the [skills CLI](https://skills.sh/docs) with Node.js 22.20 or later:
+
+```bash
+npx skills add xy727682/paper-ops
+```
+
+Choose the skills and target agent when prompted. To install all three for Codex in the current project:
+
+```bash
+npx skills add xy727682/paper-ops --skill paper-ops academy-writing seven-step-rebuttal --agent codex
+```
+
+Add `-g` for a user-wide installation. For Claude Code, replace `--agent codex` with `--agent claude-code`.
+
+### Manual installation
+
 Download [v0.1.0](https://github.com/xy727682/paper-ops/releases/tag/v0.1.0) or clone the repository:
 
 ```bash
